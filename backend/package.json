@@ -1,0 +1,25 @@
+{
+  "name": "tello-drone",
+  "version": "1.0.0",
+  "description": "",
+  "main": "fly.js",
+  "scripts": {
+    "start": "nodemon fly.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tobsirl/tello-drone-nodejs.git"
+  },
+  "author": "Paul Tobin <tobster111@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tobsirl/tello-drone-nodejs/issues"
+  },
+  "homepage": "https://github.com/tobsirl/tello-drone-nodejs#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "lodash": "^4.17.11",
+    "socket.io": "^2.2.0",
+    "waait": "^1.0.2"
+  }
+}
